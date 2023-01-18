@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mayor de dos números</title>
+</head>
+<body>
+
+<?php
+  $x = 5;
+  $y = 8;
+
+  if ($x > $y) {
+    echo $x . " es mayor que " . $y;
+  } else {
+    echo $y . " es mayor que " . $x;
+  }
+?>
+
+</body>
+</html>
