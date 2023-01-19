@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+
+	function mostrarresultadosordenados($array) {
+    	sort($array);
+    
+    $contar = 0;
+    
+        foreach ($array as $varray) {
+        	echo $varray . "<br>";
+            $contar++;
+        }
+        
+        echo "total=" . $contar . "<br>" . "<br>";
+	}
+    
+	$motos = array ("Kawasaki", "Yamaha", "BMW", "Honda");
+    $coches = array ("Mclaren", "Alpine", "Porsche", "Tata"); 
+	
+		mostrarresultadosordenados($motos);
+        mostrarresultadosordenados($coches);
+       
+       
+?> 
+
+
+</body>
+</html>
